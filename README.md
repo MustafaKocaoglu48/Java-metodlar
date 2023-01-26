@@ -157,5 +157,19 @@ public static int buyuk_bul(int a,int b){
          } 
 
 ````
+### Kendisine parametre olarak gelen bir string dizisi içindeki en uzun stringin indisini geri döndüren metodu yazınız.
+````
+     public static int enuzunI(String a[]){
+        String enu=a[0];
+        int indis=0;
+             for(int i=0;i<a.length;i++){
+                     if(enu.length()<a[i].length()){
+                   
+                          indis=i;
+                     }         
+                  } return indis;
+         }
+````
+
 
 
